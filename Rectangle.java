@@ -18,7 +18,7 @@ public class Rectangle
     Copies the value of sidelength
     into both width and height*/
 
-    public Rectangle() {}
+    Rectangle() {} //Automatically created if no constructor is found
 
     /*Default Constructor
     Allows a user to construct a rectangle
