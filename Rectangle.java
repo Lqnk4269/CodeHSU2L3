@@ -7,7 +7,7 @@ public class Rectangle
     /*Constructor
     Copies the values of rectWidth and rectHeight
     into width and height, respectively*/
-    public Rectangle(int width, int height) {
+    public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
     }
@@ -29,5 +29,9 @@ public class Rectangle
     public String toString()
     {
         return "Rectangle with width: " + width + " and height: " + height;
+    }
+
+    public double getWidth() {
+        return this.width;
     }
 }
