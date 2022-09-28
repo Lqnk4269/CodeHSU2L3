@@ -7,12 +7,18 @@ public class Rectangle
     /*Constructor
     Copies the values of rectWidth and rectHeight
     into width and height, respectively*/
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
  
     
     /* Constructor
     Allows user to construct a square
     Copies the value of sidelength
     into both width and height*/
+
+    public Rectangle() {}
 
     /*Default Constructor
     Allows a user to construct a rectangle
