@@ -6,13 +6,15 @@ public class Person
     // Constructor
     public Person(String theName, int theAge)
     {
+        this.name = theName;
+        this.age =  theAge;
         
     }
 
 
     //Default constructor - person with no name or age
     
-    
+    Person() {}
     
     // Returns a representation of this person
     public String toString()

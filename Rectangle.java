@@ -1,8 +1,8 @@
 public class Rectangle
 {
     // Attributes
-    private int width;
-    private int height;
+    private double width;
+    private double height;
     
     /*Constructor
     Copies the values of rectWidth and rectHeight
